@@ -29,7 +29,6 @@ function setup() {
     if (data.b_height != undefined) b_height = data.b_height;
   });
 
-  let font = loadFont("assets/CircularXX-Book.otf");
   textSize(text_size);
   textAlign(CENTER, CENTER);
   fill(255);
